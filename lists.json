@@ -5,7 +5,7 @@
   "categories": [],
   "domain_lists": [
     {
-      "id": "metacubex:openai",
+      "id": "triplesixdegrees:openai",
       "kind": "domains",
       "name_ru": "ChatGPT (OpenAI)",
       "file": "metacubex/domains/openai.srs.lst",
@@ -13,11 +13,11 @@
       "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/sing/geo/geosite/openai.srs",
       "tag": "latest",
       "source": "MetaCubeX/meta-rules-dat",
-      "source_name": "triplesixdegrees/lst-graveyard",
+      "source_name": "MetaCubeX/meta-rules-dat",
       "default_on": true
     },
     {
-      "id": "metacubex:reddit",
+      "id": "triplesixdegrees:reddit",
       "kind": "domains",
       "name_ru": "Reddit",
       "file": "metacubex/domains/reddit.srs.lst",
@@ -25,11 +25,11 @@
       "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/sing/geo/geosite/reddit.srs",
       "tag": "latest",
       "source": "MetaCubeX/meta-rules-dat",
-      "source_name": "triplesixdegrees/lst-graveyard",
+      "source_name": "MetaCubeX/meta-rules-dat",
       "default_on": true
     },
     {
-      "id": "ubiquiti",
+      "id": "triplesixdegrees:ubiquiti",
       "kind": "domains",
       "name_ru": "Ubiquiti / UniFi",
       "file": "ubiquiti.srs.lst",
