@@ -34,7 +34,7 @@
       "name_ru": "Ubiquiti / UniFi",
       "file": "ubiquiti.srs.lst",
       "format": "srs",
-      "url": "https://raw.githubusercontent.com/triplesixdegrees/lst-graveyard/main/ubiquiti.srs",
+      "url": "https://raw.githubusercontent.com/triplesixdegrees/lst-graveyard/main/srs/ubiquiti.srs",
       "tag": "latest",
       "source": "triplesixdegrees/lst-graveyard",
       "source_name": "Custom (UniFi)",
