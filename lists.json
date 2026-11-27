@@ -48,21 +48,6 @@
       "default_on": true,
       "description_ru": "Сайты Ubiquiti, UniFi Site Manager (unifi.ui.com), облако, обновления прошивок, UISP и форум сообщества",
       "kind": "domains"
-    },
-    {
-      "id": "svc_itdoginfo_cloudflare",
-      "kind": "domains",
-      "name_ru": "Cloudflare",
-      "file": "itdoginfo/domains/cloudflare.srs.lst",
-      "format": "srs",
-      "url": "https://github.com/itdoginfo/allow-domains/releases/download/2026-11-23_20-28/cloudflare.srs",
-      "tag": "2026-11-23_20-28",
-      "source": "itdoginfo/allow-domains",
-      "source_name": "itdoginfo (allow-domains)",
-      "default_on": false,
-      "same_as_ip": [
-        "itdoginfo:cloudflare"
-      ]
     }
   ]
 }
