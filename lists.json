@@ -1,20 +1,8 @@
 {
-  "version": "2026-11-27_10-15",
-  "generated_at": "2026-11-27T10:15:00Z",
+  "version": "2026-11-27_10-30",
+  "generated_at": "2026-11-27T10:30:00Z",
   "base_url": "https://raw.githubusercontent.com/triplesixdegrees/lst-graveyard/main",
-  "categories": [
-    {
-      "id": "itdoginfo:cloudflare",
-      "name_ru": "Cloudflare",
-      "file": "itdoginfo/cloudflare.srs.lst",
-      "format": "srs",
-      "url": "https://github.com/itdoginfo/allow-domains/releases/download/2026-11-23_20-28/cloudflare.srs",
-      "tag": "2026-11-23_20-28",
-      "source": "itdoginfo/allow-domains",
-      "source_name": "itdoginfo (allow-domains)",
-      "default_on": false
-    }
-  ],
+  "categories": [],
   "domain_lists": [
     {
       "id": "metacubex:openai",
@@ -42,12 +30,15 @@
     },
     {
       "id": "ubiquiti",
+      "kind": "domains",
       "name_ru": "Ubiquiti / UniFi",
-      "file": "ubiquiti.lst",
-      "count": 8,
-      "default_on": true,
-      "description_ru": "Сайты Ubiquiti, UniFi Site Manager (unifi.ui.com), облако, обновления прошивок, UISP и форум сообщества",
-      "kind": "domains"
+      "file": "ubiquiti.srs.lst",
+      "format": "srs",
+      "url": "https://raw.githubusercontent.com/triplesixdegrees/lst-graveyard/main/ubiquiti.srs",
+      "tag": "latest",
+      "source": "triplesixdegrees/lst-graveyard",
+      "source_name": "Custom (UniFi)",
+      "default_on": true
     }
   ]
 }
