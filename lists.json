@@ -27,6 +27,18 @@
       "source": "MetaCubeX/meta-rules-dat",
       "source_name": "MetaCubeX/meta-rules-dat",
       "default_on": true
+     },
+     {
+      "id": "triplesixdegrees:twitch",
+      "kind": "domains",
+      "name_ru": "Twitch",
+      "file": "metacubex/domains/twitch.srs.lst",
+      "format": "srs",
+      "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/sing/geo/geosite/twitch.srs",
+      "tag": "latest",
+      "source": "MetaCubeX/meta-rules-dat",
+      "source_name": "MetaCubeX/meta-rules-dat",
+      "default_on": true
     },
     {
       "id": "triplesixdegrees:intel",
